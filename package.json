@@ -1,0 +1,41 @@
+{
+  "name": "mobx",
+  "version": "0.0.0",
+  "description": "A MobX example project with TypeScript, React and Webpack.",
+  "private": true,
+  "author": "Clemens Akens",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clebert/mobx.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack/client.js --progress",
+    "start": "NODE_ENV=development webpack-dev-server --config webpack/client.js",
+    "upgrade": "ncu --upgradeAll && npm prune && npm install && typings install"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.9.1",
+    "mobx": "2.2.2",
+    "mobx-react": "3.3.1",
+    "react": "15.1.0",
+    "react-dom": "15.1.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "1.0.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-es2015-loose": "7.0.0",
+    "babel-preset-es2015-loose-native-modules": "1.0.0",
+    "clean-webpack-plugin": "0.1.9",
+    "file-loader": "0.8.5",
+    "mobx-react-devtools": "4.2.0",
+    "npm-check-updates": "2.6.7",
+    "tslint": "3.11.0",
+    "tslint-loader": "2.1.4",
+    "tslint-microsoft-contrib": "2.0.7",
+    "typescript": "1.8.10",
+    "typings": "1.0.5",
+    "webpack": "2.1.0-beta.7",
+    "webpack-dev-server": "2.1.0-beta.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "search.exclude": {
+    "**/node_modules": false,
+    "node_modules": true
+  },
+  "tslint.configFile": "./tslint.json", // https://github.com/palantir/tslint/issues/1083#issuecomment-205818080
+  "tslint.enable": true,
+  "tslint.ignoreDefinitionFiles": false,
+  "tslint.rulesDirectory": "node_modules/tslint-microsoft-contrib",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
