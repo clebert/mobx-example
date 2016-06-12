@@ -1,5 +1,5 @@
 {
-  "name": "mobx",
+  "name": "mobx-example",
   "version": "0.0.0",
   "description": "A MobX example project with TypeScript, React and Webpack.",
   "private": true,
