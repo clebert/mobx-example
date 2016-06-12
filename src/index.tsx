@@ -15,9 +15,10 @@ import {BookmarkList} from 'views/BookmarkList';
 useStrict(true);
 
 const bookmarkStore = new BookmarkStore([
-  new BookmarkModel('SPIEGEL ONLINE', 'http://www.spiegel.de/'),
-  new BookmarkModel('Hacker News', 'https://news.ycombinator.com/'),
-  new BookmarkModel('Bild', 'http://www.bild.de/')
+  new BookmarkModel('MobX', 'https://mobxjs.github.io/mobx/index.html'),
+  new BookmarkModel('TypeScript', 'https://www.typescriptlang.org/docs/tutorial.html'),
+  new BookmarkModel('React', 'https://facebook.github.io/react/docs/getting-started.html'),
+  new BookmarkModel('Webpack', 'https://webpack.github.io/docs/')
 ]);
 
 const bookmarkView = new BookmarkViewModel();

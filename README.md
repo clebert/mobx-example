@@ -1,6 +1,6 @@
 # mobx
 
-> A MobX example project with TypeScript, React and Webpack.
+> A [MobX](https://mobxjs.github.io/mobx/index.html) example project with [TypeScript](https://www.typescriptlang.org/docs/tutorial.html), [React](https://facebook.github.io/react/docs/getting-started.html) and [Webpack](https://webpack.github.io/docs/).
 
 ## Installation
 
