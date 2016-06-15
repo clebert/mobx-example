@@ -8,7 +8,11 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "target": "es2015"
+    "strictNullChecks": true,
+    "target": "es5",
+    "types": [
+      "node"
+    ]
   },
   "exclude": [
     "node_modules",

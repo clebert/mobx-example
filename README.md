@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install
+npm install --force
 ```
 
 ## Usage

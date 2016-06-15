@@ -1,7 +1,5 @@
 import 'index.html';
 
-import 'babel-polyfill';
-
 import {bookmarkActions} from 'actions/bookmarkActions';
 import {useStrict} from 'mobx';
 import DevTools from 'mobx-react-devtools';

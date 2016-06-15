@@ -20,7 +20,7 @@ module.exports = {
     open: true,
     port: 3000
   },
-  devtool: devMode ? 'inline-source-map' : 'hidden-source-map',
+  devtool: devMode ? 'source-map' : 'hidden-source-map',
   entry: resolve('src/index.tsx'),
   externals: devMode ? {} : {
     'mobx-react-devtools': '{}',
@@ -32,8 +32,7 @@ module.exports = {
         include: resolve('src/'),
         loader: 'awesome-typescript',
         query: {
-          forkChecker: true,
-          useBabel: true
+          forkChecker: true
         },
         test: /\.tsx?$/
       },
