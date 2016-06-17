@@ -12,7 +12,7 @@
   "scripts": {
     "build": "webpack --config webpack/client.js --progress",
     "start": "NODE_ENV=development webpack-dev-server --config webpack/client.js",
-    "upgrade": "ncu --upgradeAll && npm prune && npm install --force"
+    "upgrade": "ncu --upgradeAll && npm prune && npm install"
   },
   "dependencies": {
     "mobx": "2.3.1",
