@@ -10,8 +10,8 @@
     "url": "https://github.com/clebert/mobx.git"
   },
   "scripts": {
-    "build": "webpack --config webpack/client.js --progress",
-    "start": "NODE_ENV=development webpack-dev-server --config webpack/client.js",
+    "build": "webpack --config webpack/config.js --progress",
+    "start": "NODE_ENV=development webpack-dev-server --config webpack/config.js",
     "upgrade": "ncu --upgradeAll && npm prune && npm install"
   },
   "dependencies": {
@@ -21,7 +21,6 @@
     "react-dom": "15.1.0"
   },
   "devDependencies": {
-    "@types/node": "4.0.22-alpha",
     "@types/react": "0.14.21-alpha",
     "@types/react-dom": "0.14.8-alpha",
     "awesome-typescript-loader": "1.1.1",
